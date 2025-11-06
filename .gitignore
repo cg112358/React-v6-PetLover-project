@@ -1,1 +1,95 @@
+# --- Package managers (npm-first) ---
+node_modules/
 yarn.lock
+pnpm-lock.yaml
+
+# --- Logs & diagnostics ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Env & secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Test output & coverage ---
+coverage/
+.nyc_output/
+.jest-cache/
+.jest/
+
+# --- Build artifacts ---
+dist/
+build/
+lib/
+out/
+.tmp/
+temp/
+tmp/
+
+# --- Framework caches/builds (keep the ones you use) ---
+# Next.js
+.next/
+out/
+# Vite / Rollup
+dist-ssr/
+node_modules/.vite/
+# Gatsby
+.cache/
+public/
+# Nuxt
+.nuxt/
+# SvelteKit
+.svelte-kit/
+# Parcel
+.parcel-cache/
+# Storybook
+storybook-static/
+.out/
+# Expo / React Native
+.expo/
+.expo-shared/
+android/
+ios/
+# Remix
+.build/
+
+# --- Linters/formatters/tooling ---
+.eslintcache
+.prettier-cache/
+.stylelintcache
+.turbo/
+.pnp.*
+.pnpm-debug.log*
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- E2E tooling ---
+# Cypress
+cypress/videos/
+cypress/screenshots/
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+
+# --- IDE/editor + OS noise ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# --- Misc ---
+*.orig
+*.rej
